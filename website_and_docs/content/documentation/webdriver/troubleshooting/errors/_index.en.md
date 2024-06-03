@@ -38,6 +38,7 @@ The element can not be found at the exact moment you attempted to locate it.
 * You are looking for the element in the wrong place (perhaps a previous action was unsuccessful).
 * You are looking for the element at the wrong time (the element has not shown up in the DOM, yet)
 * The locator has changed since you wrote the code
+* You are looking for an element that has scrolled out of view (running non-headless)
 
 ### Possible Solutions
 
